@@ -63,3 +63,8 @@ public class Main {
         for (int i=0;i< m.length;i++){
 
         }
+public static int indexOfNearestByModul( int x,int []m){
+int minDif=x- m[0];
+int j=0;
+for( int i=1;i<m.length;i++){
+if((x-m
